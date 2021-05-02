@@ -1,0 +1,394 @@
+@charset 'utf-8';
+
+@media screen and (min-width:1025px){
+    main{
+        background-color:black;
+        font-family: serif; 
+        height: 2700px;
+    }
+    .title{
+        width: 100%;
+        height: 80px;
+        text-align: center;
+    
+    }
+    .title img{
+        width: 50%;
+        height: auto;
+        margin-top: 25px;
+    }
+    .hajime{
+        background-image: url(images2.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 600px;
+        text-align: center;
+        display: none;
+    }
+    #hajimep{
+        color: rgba(250,250,250,0.7);
+        font-size: 60px;
+        font-weight: bold;
+        padding-top: 120px;
+        position: relative;
+        display: none;
+    
+    
+    }
+    .midashi1{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .midashi2{
+        width: 100%;
+        color: white;
+        background-size: cover;
+        text-align: center;
+        font-size: 25px;
+        padding-top: 70px;
+    }
+    .midashi2 p{
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+    }
+    #midashi2h1{
+        border-bottom: ridge;
+        font-size: 60px;
+    }
+    .midashi25{
+        background-image: url(background.jpg);
+        background-size: cover;
+        margin-top: 50px;
+        background-position: center center;
+        height: 600px;
+    
+    }
+    .midashi3{
+        padding-top: 20px;
+        
+    }
+    #ji{
+        font-size: 80px;
+    }
+    
+    .owarini{
+        padding-top: 30px;
+        height: 500px;
+        background-color:rgba();
+        text-align: center;
+        color: white;
+    
+    }
+    #owarinih1{
+        padding-top: 100px;
+        border-bottom: ridge;
+    }
+    .kansou{
+        text-align: center;
+    
+    }
+    #kaisetuh1{
+        color: white;
+        border-bottom: ridge;
+        margin-top: 70px;
+        margin-bottom: 20px;
+        font-size: 50px;
+        padding: 5px;
+        text-align: center;
+    }
+    .kansou p{
+        margin-top: 30px;
+        padding-top: 30px;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+    .koramu{
+        text-align: center;
+        margin-top: 150px;
+        margin-bottom: 50px;
+        
+    }
+    #koramuimg{
+        height: 450px;
+    }
+    #mokuteki p{
+        color: white;
+        font-size: 20px;
+        line-height: 40px;
+        padding:10px;
+        
+    }
+    #mokuteki{
+        background-color: rgba(190,190,190,0.5);
+        margin:70px 30px;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    
+    
+    
+    
+}
+
+@media screen and (min-width:0px) and (max-width:420px){
+    main{
+        background-color:black;
+        font-family: serif; 
+        height: 2200px;
+    }
+    .title{
+        width: 100%;
+        height: 5px;
+        text-align: center;
+    
+    }
+    .title img{
+        max-width: 250px;
+        width: 100%;
+        height: 10px;
+        margin-top: 30px;
+    }
+    .hajime{
+        background-image: url(images2.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 800px;
+        text-align: center;
+        display: none;
+    }
+    #hajimep{
+        color: rgba(250,250,250,0.7);
+        font-size: 60px;
+        font-weight: bold;
+        padding-top: 180px;
+        position: relative;
+        display: none;
+    
+    
+    }
+    .midashi2{
+        width: 100%;
+        color: white;
+        background-size: cover;
+        text-align: center;
+        font-size: 25px;
+        padding-top: 70px;
+    }
+    .midashi2 p{
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+    }
+    #midashi2h1{
+        border-bottom: ridge;
+        font-size: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .midashi25{
+        background-image: url(background.jpg);
+        background-size: cover;
+        margin-top: 50px;
+        background-position: center center;
+        height: 400px;
+    
+    }
+    .midashi3{
+        padding-top: 20px;
+        
+    }
+    #ji{
+        font-size: 27px;
+    }
+    
+    .owarini{
+        padding-top: 30px;
+        height: 500px;
+        background-color:rgba();
+        text-align: center;
+        color: white;
+    
+    }
+    #owarinih1{
+        font-size: 30px;
+        margin: 0 30px;
+        padding-top: 100px;
+        border-bottom: ridge;
+    }
+    .kansou{
+        text-align: center;
+        margin: 0 20px;
+    
+    }
+    #kaisetuh1{
+        color: white;
+        border-bottom: ridge;
+        margin: 70px 20px 30px 30px;
+        font-size: 30px;
+        padding: 0,5px;
+        text-align: center;
+    }
+    .kansou p{
+        margin-top: 30px;
+        padding-top: 30px;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+    .koramu{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: block;
+        text-align: center;
+        
+    }
+    #koramuimg{
+        height: 200px;
+    }
+    #mokuteki p{
+        color: white;
+        font-size: 20px;
+        line-height: 40px;
+        padding:10px;
+        margin-top: 20px;
+        
+    }
+    #mokuteki{
+        background-color: rgba(190,190,190,0.5);
+        margin: 50px 30px;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    
+    
+}
+
+@media screen and (min-width:421px) and (max-width:1024px){
+    main{
+        background-color:black;
+        font-family: serif; 
+        height: 2500px;
+    }
+    .title{
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    
+    }
+    .title img{
+        max-width: 400px;
+        width: 100%;
+        height: 30px;
+        margin-top: 30px;
+    }
+    .hajime{
+        background-image: url(images2.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 1200px;
+        text-align: center;
+        display: none;
+    }
+    #hajimep{
+        color: rgba(250,250,250,0.7);
+        font-size: 60px;
+        font-weight: bold;
+        padding-top: 400px;
+        position: relative;
+        display: none;
+    
+    
+    }
+    .midashi2{
+        width: 100%;
+        color: white;
+        background-size: cover;
+        text-align: center;
+        font-size: 25px;
+        padding-top: 70px;
+    }
+    .midashi2 p{
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+    }
+    #midashi2h1{
+        border-bottom: ridge;
+        font-size: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .midashi25{
+        background-image: url(background.jpg);
+        background-size: cover;
+        margin-top: 50px;
+        background-position: center center;
+        height: 800px;
+    
+    }
+    .midashi3{
+        padding-top: 200px;
+        padding-top: 20px;
+        
+    }
+    #ji{
+        padding-top: 30px;
+        font-size: 50px;
+    }
+    
+    .owarini{
+        padding-top: 30px;
+        height: 500px;
+        background-color:rgba();
+        text-align: center;
+        color: white;
+    
+    }
+    #owarinih1{
+        font-size: 30px;
+        margin: 0 30px;
+        padding-top: 100px;
+        border-bottom: ridge;
+    }
+    .kansou{
+        text-align: center;
+        margin: 0 20px;
+    
+    }
+    #kaisetuh1{
+        color: white;
+        border-bottom: ridge;
+        margin: 70px 20px 30px 30px;
+        font-size: 30px;
+        padding: 0,5px;
+        text-align: center;
+    }
+    .kansou p{
+        margin-top: 30px;
+        padding-top: 30px;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+    .koramu{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: block;
+        text-align: center;
+        
+    }
+    #koramuimg{
+        height: 400px;
+    }
+    #mokuteki p{
+        color: white;
+        font-size: 20px;
+        line-height: 40px;
+        padding:10px;
+        margin-top: 20px;
+        
+    }
+    #mokuteki{
+        background-color: rgba(190,190,190,0.5);
+        margin: 50px 30px;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    
+}
